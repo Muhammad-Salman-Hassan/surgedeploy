@@ -46,7 +46,7 @@ jobs:
 
       # Deploy to the defined URL using the token
       - name: Deploy to surge
-        run: surge ./build deploy.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./build deploy-website.surge.sh --token ${{secrets.SURGE_TOKEN}}
 
 
 
